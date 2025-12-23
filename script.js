@@ -65,7 +65,7 @@ function handleScrollForCounters() {
 window.addEventListener('scroll', handleScrollForCounters);
 
 // Initialize typing animation
-const typingAnimation = new TypingAnimation("#typing-text", ["Data Analyst", "SQL, Python, Power BI", "Machine Learning"]);
+const typingAnimation = new TypingAnimation("#typing-text", [ "We automate intelligence to protect your margins."]);
 
 window.addEventListener("scroll", function () {
   const header = document.querySelector(".navbar");
